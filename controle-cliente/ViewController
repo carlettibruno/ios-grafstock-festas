@@ -16,19 +16,10 @@ class ViewController: UIViewController {
     
     func loadAddress() {
         let requestUrl = NSURL(string: url)!
-//        let request = NSMutableURLRequest(URL: requestUrl)
-
-        let cookies = NSHTTPCookieStorage.sharedHTTPCookieStorage().cookies
-        
-        let request = NSMutableURLRequest(URL:requestUrl);
-        request.HTTPShouldHandleCookies = true
-        
-//        [self addCookies:cookies forRequest:request];
-        
+        let request = NSURLRequest(URL: requestUrl)
         
         var cookie : NSHTTPCookie = NSHTTPCookie()
         var cookieJar : NSHTTPCookieStorage = NSHTTPCookieStorage.sharedHTTPCookieStorage()
-        NSLog("Testando...")
         for cookie in cookieJar.cookies as [NSHTTPCookie]{
             NSLog("%@", cookie)
         }

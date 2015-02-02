@@ -13,6 +13,12 @@
 		52AD64141A32566200CB542E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AD64131A32566200CB542E /* Images.xcassets */; };
 		52AD64171A32566200CB542E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AD64151A32566200CB542E /* LaunchScreen.xib */; };
 		52AD64231A32566200CB542E /* controle_clienteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD64221A32566200CB542E /* controle_clienteTests.swift */; };
+		52D361181A8036B8003E20A0 /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = 52D361171A8036B8003E20A0 /* ViewController */; };
+		52D591581A618F1800FEF739 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D591531A618F1800FEF739 /* icon-60.png */; };
+		52D591591A618F1800FEF739 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D591541A618F1800FEF739 /* icon-76.png */; };
+		52D5915A1A618F1800FEF739 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D591551A618F1800FEF739 /* icon-120.png */; };
+		52D5915B1A618F1800FEF739 /* icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D591561A618F1800FEF739 /* icon-152.png */; };
+		52D5915C1A618F1800FEF739 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D591571A618F1800FEF739 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		52AD641C1A32566200CB542E /* controle-clienteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "controle-clienteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AD64211A32566200CB542E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52AD64221A32566200CB542E /* controle_clienteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controle_clienteTests.swift; sourceTree = "<group>"; };
+		52D361171A8036B8003E20A0 /* ViewController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewController; sourceTree = "<group>"; };
+		52D591531A618F1800FEF739 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "../../../Projetos/Grafstock/IMAGES/icon-60.png"; sourceTree = "<group>"; };
+		52D591541A618F1800FEF739 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "../../../Projetos/Grafstock/IMAGES/icon-76.png"; sourceTree = "<group>"; };
+		52D591551A618F1800FEF739 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-120.png"; path = "../../../Projetos/Grafstock/IMAGES/icon-120.png"; sourceTree = "<group>"; };
+		52D591561A618F1800FEF739 /* icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-152.png"; path = "../../../Projetos/Grafstock/IMAGES/icon-152.png"; sourceTree = "<group>"; };
+		52D591571A618F1800FEF739 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Projetos/Grafstock/IMAGES/icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 			children = (
 				52AD640C1A32566200CB542E /* AppDelegate.swift */,
 				52AD640E1A32566200CB542E /* ViewController.swift */,
+				52D361171A8036B8003E20A0 /* ViewController */,
 				52AD64101A32566200CB542E /* Main.storyboard */,
 				52AD64131A32566200CB542E /* Images.xcassets */,
 				52AD64151A32566200CB542E /* LaunchScreen.xib */,
@@ -90,6 +103,11 @@
 		52AD640A1A32566200CB542E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52D591531A618F1800FEF739 /* icon-60.png */,
+				52D591541A618F1800FEF739 /* icon-76.png */,
+				52D591551A618F1800FEF739 /* icon-120.png */,
+				52D591561A618F1800FEF739 /* icon-152.png */,
+				52D591571A618F1800FEF739 /* icon.png */,
 				52AD640B1A32566200CB542E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +179,7 @@
 				TargetAttributes = {
 					52AD64061A32566200CB542E = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5TU2U6DJJ2;
 					};
 					52AD641B1A32566200CB542E = {
 						CreatedOnToolsVersion = 6.1;
@@ -192,8 +211,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D361181A8036B8003E20A0 /* ViewController in Resources */,
 				52AD64121A32566200CB542E /* Main.storyboard in Resources */,
+				52D591591A618F1800FEF739 /* icon-76.png in Resources */,
+				52D5915A1A618F1800FEF739 /* icon-120.png in Resources */,
+				52D5915B1A618F1800FEF739 /* icon-152.png in Resources */,
+				52D5915C1A618F1800FEF739 /* icon.png in Resources */,
 				52AD64171A32566200CB542E /* LaunchScreen.xib in Resources */,
+				52D591581A618F1800FEF739 /* icon-60.png in Resources */,
 				52AD64141A32566200CB542E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +363,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "controle-cliente/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -348,9 +378,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "controle-cliente/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -407,6 +442,7 @@
 				52AD64281A32566200CB542E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52AD64291A32566200CB542E /* Build configuration list for PBXNativeTarget "controle-clienteTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +451,7 @@
 				52AD642B1A32566200CB542E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
