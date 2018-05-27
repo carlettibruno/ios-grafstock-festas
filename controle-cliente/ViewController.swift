@@ -22,7 +22,8 @@ class ViewController: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
         
         // 1
-        let url = URL(string: "http://carlettisolucoes.com.br/grafstock-festas-cliente/")!
+        //let url = URL(string: "http://carlettisolucoes.com.br/grafstock-festas-cliente/")!
+        let url = URL(string: "http://carlettisolucoes.com.br:8080/controle-cliente/")!
         webView.load(URLRequest(url: url))
         
         // 2
